@@ -20,6 +20,10 @@ By default, it prompts for a transaction involving money entering the business, 
 
 If you just want one calculation, you can enter `0` as the amount.
 
+### Dependencies
+
+This script requires the `python-dateutil` and `requests` modules. You can easily install these using `pip`.
+
 ## Disclaimer
 
 This script is for educational purposes only. Consult a certfied accountant when preparing official documents.
