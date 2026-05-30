@@ -1,5 +1,5 @@
 # boconvert.py - Easily record foreign currency transactions using double-entry accounting by automatically obtaining conversion rates
-# Released under the MIT License
+# v1.1 Released under the MPL-2.0 license
 
 """
 This script uses the Valet API to obtain observation data from the Bank of Canada and shows how to record foreign currency transactions using double-entry accounting.
@@ -75,7 +75,7 @@ def get_exchange_rate(target_date, currency):
 
 
 def main():
-    print("Welcome to convert.py")
+    print("Welcome to boconvert - Bank Of Canada convert")
     
     # Date Loop
     while True:
